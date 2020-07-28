@@ -1,0 +1,200 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Olise's Innovatives</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'portfolio/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/ionicons.min.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'portfolio/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+  </head>
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="{% url 'portfolio-home' %}">Olise's<i> Innovatives</i>.</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="{% url 'portfolio-home' %}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="{% url 'portfolio-about' %}" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="{% url 'portfolio-contact' %}" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="{% url 'portfolio-project' %}" class="nav-link">Projects</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url({% static 'portfolio/images/image_5.jpg' %});" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread">Web Dev</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 ftco-animate">
+            <h1 class="mb-3 mt-3">A Web App using Django Framework.</h1>
+            <p>Developing a Portfolio Web Application using Django framework </p>
+            <p class="mb-5">
+              <img src="{% static 'portfolio/images/figma22.PNG' %}" alt="" class="img-fluid">
+            </p>
+            <P align = "justify">I decided to learn a web development framework in other to be able to display my works and projects online and also satisfy client needs by helping them create a platform that not only brings the worlds attention to their services but also does it in style.</p>
+            <p align = "justify">Olise's innovatives was inspired by the fact that i wasn't satisfied by just creating models that could run on only my console but having the knowledge of deploying my projects ranging from professional websites to machine learning projects.</p>
+            <p align = "justify">For this project i made use of the Django framework and python programming language for the backend and i made use of bootstrap4 templates, html, css and javascript for the frontend design. I have other projects i'm currently working as i try to push myself to take on new challenges each day.</p>
+            <div class="sidebar-box ftco-animate">
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma23.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma32.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma33.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma26.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma24.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma25.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma34.PNG' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+
+    <!--Chatbot code section-->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="Olise'sbot"
+    agent-id="be544ca1-b28b-4177-8dd0-0841e922b7ee"
+    language-code="en"
+    ></df-messenger>  
+    
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="logo"><a href="{% url 'portfolio-home' %}">Olise's<span> Innovatives</span>.</a></h2>
+              <p></p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/emmanuel-olise-897b25192/"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://web.facebook.com/Emma2nuel/"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/manuel_olise/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+		  </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">latest Projects</h2>
+              <div class="block-21 mb-4 d-flex">
+	              <a class="img mr-4 rounded" style="background-image: url({% static 'portfolio/images/advanced-ai-anatomy-artificial.jpg' %});"></a>
+	              <div class="text">
+	                <h3 class="heading"><a href="{% url 'portfolio-project' %}">View My Latest Projects.</a></h3>
+	                <div class="meta">
+	                </div>
+	              </div>
+	            </div>
+	            <div class="block-21 mb-4 d-flex">
+	              <a class="img mr-4 rounded" style="background-image: url({% static 'portfolio/images/chatbot.jpg' %});"></a>
+	              <div class="text">
+	                <h3 class="heading"><a href="{% url 'portfolio-projectsingle5' %}">View My latest work on AI Technology.</a></h3>
+	                <div class="meta">
+	                </div>
+	              </div>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="{% url 'portfolio-home' %}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home</a></li>
+                <li><a href="{% url 'portfolio-about' %}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About</a></li>
+                <li><a href="{% url 'portfolio-contact' %}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Contact</a></li>
+                <li><a href="{% url 'portfolio-project' %}"  class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Projects</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">30 Olayemi Kunlere Street Isokan Phase1, Ayobo Lagos. Nigeria.</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2348140736106</span></a></li>
+	                <li><a href="{% url 'portfolio-contact' %}"><span class="icon icon-envelope"></span><span class="text">Contact Me</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{% static 'portfolio/js/jquery.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/popper.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/aos.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.animateNumber.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/scrollax.min.js' %}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{% static 'portfolio/js/google-map.js' %}"></script>
+  <script src="{% static 'portfolio/js/main.js' %}"></script>
+    
+  </body>
+</html>

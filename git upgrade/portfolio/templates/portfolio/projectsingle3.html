@@ -1,0 +1,229 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Olise's Innovatives</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'portfolio/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/ionicons.min.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'portfolio/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+  </head>
+  <body>
+    
+	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="{% url 'portfolio-home' %}">Olise's<i> innovatives </i>.</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="{% url 'portfolio-home' %}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="{% url 'portfolio-about' %}" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="{% url 'portfolio-contact' %}" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="{% url 'portfolio-project' %}" class="nav-link">Projects</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url({% static 'portfolio/images/Data-Management-Technology-Application-Software.jpg' %});" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1>Data Analysis Project</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+            <h1 class="mb-3 mt-1">COVID 19 Patients Data Analysis</h1>
+            <p>Data Analysis of COVID-19 Cases in India, Korea, Italy, and Wuhan using matplotlib, plotly, scattterplot, etc...</p>
+            <p class="mb-5">
+              <img src="{% static 'portfolio/images/unnamed.jpg' %}" alt="" class="img-fluid">
+            </p>
+            <p align = "justify">Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making.  In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively</p>
+            <p align = "justify">Due to the rise in the pandemic called COVID-19 that has plagued most countries in the world i wanted to create a project that shows the progression and analyse the weak spot within different part of a country. My case studies were India, italy, wuhan, and korea. I chose them because as at the time i developed the project those four countries had one of the highest population of COVID-19 cases. </p>
+            <p align = "justify">I made use of jupyter notebook to write the code for this project. Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. I make use of jupyter notebook for my data science projects and visual studio code for my web projects.</p>
+            <p align = "jsutify">I made use of various data visualization algorithms for machine learning like plotly, barchart, scattterplot, matplotlib. Below shows the screenshots for the projects.</p>
+
+            <div class="sidebar-box ftco-animate">
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture35.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture36.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture37.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture38.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture39.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture40.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture41.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture42.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture43.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/Capture44.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma27.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma28.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma29.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma30.PNG' %}" alt="" class="img-fluid">
+              </div>
+              <div class="container mt-3">
+                <img src="{% static 'portfolio/images/figma31.PNG' %}" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="categories">
+                <h3>Please check my GitHub Account for the code.</h3>
+                <li><a href="https://github.com/manuelolise/COVID19-Data-Analysis">Github <span class="ion-ios-arrow-forward"></span></a></li>
+            </div>
+        </div>
+      </div>
+    </section> <!-- .section -->
+
+    <!--Chatbot code section-->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="Olise'sbot"
+    agent-id="be544ca1-b28b-4177-8dd0-0841e922b7ee"
+    language-code="en"
+    ></df-messenger>  
+    
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="logo"><a href="{% url 'portfolio-home' %}">Olise's<span> Innovatives</span>.</a></h2>
+              <p></p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/emmanuel-olise-897b25192/"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://web.facebook.com/Emma2nuel/"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/manuel_olise/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+		  </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">latest Projects</h2>
+              <div class="block-21 mb-4 d-flex">
+	              <a class="img mr-4 rounded" style="background-image: url({% static 'portfolio/images/advanced-ai-anatomy-artificial.jpg' %});"></a>
+	              <div class="text">
+	                <h3 class="heading"><a href="{% url 'portfolio-project' %}">View My Latest Projects.</a></h3>
+	                <div class="meta">
+	                </div>
+	              </div>
+	            </div>
+	            <div class="block-21 mb-4 d-flex">
+	              <a class="img mr-4 rounded" style="background-image: url({% static 'portfolio/images/chatbot.jpg' %});"></a>
+	              <div class="text">
+	                <h3 class="heading"><a href="{% url 'portfolio-projectsingle5' %}">View My latest work on AI Technology.</a></h3>
+	                <div class="meta">
+	                </div>
+	              </div>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="{% url 'portfolio-home' %}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home</a></li>
+                <li><a href="{% url 'portfolio-about' %}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About</a></li>
+                <li><a href="{% url 'portfolio-contact' %}" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Contact</a></li>
+                <li><a href="{% url 'portfolio-project' %}"  class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Projects</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">30 Olayemi Kunlere Street Isokan Phase1, Ayobo Lagos. Nigeria.</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2348140736106</span></a></li>
+	                <li><a href="{% url 'portfolio-contact' %}"><span class="icon icon-envelope"></span><span class="text">Contact Me</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{% static 'portfolio/js/jquery.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/popper.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/aos.js' %}"></script>
+  <script src="{% static 'portfolio/js/jquery.animateNumber.min.js' %}"></script>
+  <script src="{% static 'portfolio/js/scrollax.min.js' %}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{% static 'portfolio/js/google-map.js' %}"></script>
+  <script src="{% static 'portfolio/js/main.js' %}"></script>
+    
+  </body>
+</html>
